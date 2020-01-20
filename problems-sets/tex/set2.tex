@@ -13,8 +13,14 @@
 
 \begin{enumerate}
     \item
-    The vertices of a square are labelled $A$, $B$, $C$ and $D$ going anticlockwise, and a random point $P$ in the square is chosen. What is the probability that angle $\angle{APB}$ is obtuse?
+    Find the area of the square in the diagram below, given that the radius of each of the circles is 1.
     
+    \begin{tikzpicture}[scale=0.5]
+        \draw (-1, 0) circle [radius=2];
+        \draw (1, 0) circle [radius=2];
+        \draw ({sqrt(2-(sqrt(7)/2))}, {sqrt(2-(sqrt(7)/2))}) -- ({sqrt(2-(sqrt(7)/2))}, {-sqrt(2-(sqrt(7)/2))}) -- ({-sqrt(2-(sqrt(7)/2))}, {-sqrt(2-(sqrt(7)/2))}) -- ({-sqrt(2-(sqrt(7)/2))}, {sqrt(2-(sqrt(7)/2))}) -- cycle;
+    \end{tikzpicture}
+
     \item
     Two particles are travelling in opposite directions with the same speed. After the collision they travel in the same direction. What can be said about their relative masses?
     
@@ -26,17 +32,10 @@
     $n! = n \times (n - 1) \times (n - 2) \times ... \times 3 \times 2 \times 1$, so $100! = 100 \times 99 \times 98 \times ... \times 3 \times 2 \times 1$.
     
     \item
-    
-    Find the area of the square in the diagram below, given that the radius of each of the circles is 1.
-    
-    \begin{tikzpicture}[scale=0.5]
-        \draw (-1, 0) circle [radius=2];
-        \draw (1, 0) circle [radius=2];
-        \draw ({sqrt(2-(sqrt(7)/2))}, {sqrt(2-(sqrt(7)/2))}) -- ({sqrt(2-(sqrt(7)/2))}, {-sqrt(2-(sqrt(7)/2))}) -- ({-sqrt(2-(sqrt(7)/2))}, {-sqrt(2-(sqrt(7)/2))}) -- ({-sqrt(2-(sqrt(7)/2))}, {sqrt(2-(sqrt(7)/2))}) -- cycle;
-    \end{tikzpicture}
+    In the Gregorian calendar where dates are denoted in the form dd/mm/yyyy, how many dates are there between 1 January 1900 and 31 December 1999, inclusive, where the date contains no repeated digits?
     
     \item
-    In the Gregorian calendar where dates are denoted in the form dd/mm/yyyy, how many dates are there between 1 January 1900 and 31 December 1999, inclusive, where the date contains no repeated digits?
+    The vertices of a square are labelled $A$, $B$, $C$ and $D$ going anticlockwise, and a random point $P$ in the square is chosen. What is the probability that angle $\angle{APB}$ is obtuse?
     
     \item
     Timmy pulls a crate with a mass of 10 kg along a flat surface with a constant force of 200 N. The crate is pulled at a angle so as to maximise its acceleration. The coefficient of friction between the crate and ground is $\frac{1}{\sqrt{2}}$. Timmy eventually releases the crate allowing friction to bring it to rest. Given that the journey took 40 seconds, how far did the crate travel?
