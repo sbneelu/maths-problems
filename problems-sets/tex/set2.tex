@@ -1,9 +1,10 @@
-\documentclass{article}
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{tikz}
 \usepackage{tkz-euclide}
+\pagenumbering{gobble}
 
 \begin{document}
 
@@ -49,6 +50,9 @@
     Find an expression for $\int_0^n \lfloor 2^x \rfloor \text{ } \mathrm{d}x$ where $n$ is a positive integer.
     
     \item
+    There is a pile of 129 coins on a table, all unbiased except for one which has heads on both sides. Bob chooses a coin at random and tosses it eight times. The coin comes up heads every time. What is the probability that it will come up heads the ninth time as well?
+    
+    \item
     A University bike shed contains $n$ cubicles in a row. Each cubicle stores one bicycle. 
     
     One morning, Professor Ponte places his bicycle in one of the cubicles. At night Priyanka attempts to steal his bike by opening one and only one of the cubicles. The next morning Professor Ponte moves his bike from the cubicle it is currently in to one of the cubicles adjacent to the one it was in before, and closes the cubicle that Priyanka opened. Note that if the bicycle is in one of the cubicles at the end then there is only one possible cubicle for it to be moved to the follow morning. This repeats every morning and corresponding night.
@@ -56,10 +60,7 @@
     Devise a general strategy for Priyanka to successfully steal Professor Ponte's bike. Note that your strategy must work for any number $n$ of cubicles in the bike shed.
     
     \item
-    There is a pile of 129 coins on a table, all unbiased except for one which has heads on both sides. Bob chooses a coin at random and tosses it eight times. The coin comes up heads every time. What is the probability that it will come up heads the ninth time as well?
-    
-    \item
-    The sum $S_n$ is defined by $S_n = \sum\limits_{k=1}^{n} n(2^n)$, i.e. $2 + 8 + 24 + ... + n(2^n)$.
+    The sum $S_n$ is defined by $S_n = \sum\limits_{k=1}^{n} k(2^k)$, i.e. $2 + 8 + 24 + ... + n(2^n)$.
     
     Find an expression for $\sum\limits_{k=1}^n S_k$, i.e. $S_1 + S_2 + S_3 + ... + S_n$.
     
