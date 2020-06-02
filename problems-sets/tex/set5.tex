@@ -1,66 +1,20 @@
-\documentclass{article}
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{tikz}
 \usepackage{tkz-euclide}
 \usepackage{graphicx}
-\usepackage{nopageno}
 \graphicspath{ {./images/} }
+\pagenumbering{gobble}
 
 \begin{document}
 
 \begin{center}
-        \section*{Maths Problems Set 5 (12 April 2020)}
+        \section*{Maths Problems Set 5 (2 June 2020)}
 \end{center}
 
 \begin{enumerate}
-    
-\end{enumerate}
-
-    \item
-    If you take a rubik's cube and repeatedly apply any sequence of moves to it. Will the cube eventually return to it's initial condition
-
-    % Siddarth's hat problem
-    \item
-
-    % Gnome spaceship problem
-    \item
-
-    % Gilad's pill problem
-    \item
-
-	\item
-	A function $f(x)$ is defined as follows. $f''(x) = -f(x)$, $f(0) = 0$ and $f'(0) = 1$. Prove that:
-	\begin{enumerate}
-	    \item $f(x + a) = f(x)f'(a) + f'(x)f(a)$
-	    \item $(f(x))^2 + (f'(x))^2 = 1$
-	    \item $\exists x$ $f(x+a) = f'(x)$
-	\end{enumerate}
-	You may use without proof that fact that any linear second order differential equation with initial conditions has a unique solution
-
-	\item
-	You are given a normal die and a blank die.
-
-	How can you label the blank die using the numbers 0 to 6 so that when you roll the two dice the sum shows each whole number from 1 to 12 with equal chance
-
-	% Seesaw problem
-	\item
-
-	\item
-	Evaluate
-	$\int_{0}^{\frac{\pi}{2}} \frac{\sin^3{x}}{2 + \sin(x)} dx$
-
-	\item
-	For what $\theta$ such that $0 \leq \theta \geq 2\pi$ is $\sin(x) + \cos(x) \geq 0$
-
-	\item
-	Show that a real number has a repeating decimal expansion \iff that number is rational
-
-	\item
-	Find the general solution for the system of diffrential equations.
-	$\frac{dy}{dt} = -2(y-z)$ and $\frac{dz}{dt} = -\frac{dy}{dt} - 3z$
-
 	\item
 	Five children (Ammar, Bilal, Chris, Dan and Egan) raced each other.  First they raced to the spreading chestnut tree, and then they raced back to their starting point. The following facts are known:
 	\begin{enumerate}
@@ -74,13 +28,94 @@
 	\end{enumerate}
 	For  each  race  (to  the  tree  and  back  again),  write  down  the  order  in  which  the  children finished.
 
-	% Expectation probability problem
 	\item
+	For what $\theta$ such that $0 \leq \theta \leq 2\pi$ is $\sin(x) + \cos(x) \geq 1$
 
-	% Needle pie approximation problem?
-	\item
+    % Siddarth's hat problem
+    \item
+    A paper circle of radius $r$ is taken and a sector with angle $\theta$ is removed. What remains of the circle is then folded round into a party hat so that the edges of the cut out sector touch. Find in terms of $r$ and $\theta$ the height of the hat.
 
-	% Tilted cone problem?
+    \item
+    There are 100 prisoners in a prison. Each day, one prisoner at random is taken to a room for an hour which has nothing in it except a light that can be switched on or off freely by the prisoner inside. At the end of the hour the prisoner is asked if every other prisoner has been in the room before. If he says 'no' nothing happens. If he says 'yes' and is wrong, then all 100 prisoners are killed. If he says 'yes' and is correct then all the prisoners are released. When the prisoner leaves the room nobody can enter the room again until the next day when a random prisoner is selected. During their time in prison the prisoners are all held in separate cells and can never communicate with each other. However, before they enter the prison, they are able to conduct a meeting where they can come up with a strategy for their release. What strategy will guarantee their eventual release?
+    
 	\item
+	You are given a normal die and a blank die.
+
+	How can you label the blank die using the numbers 0 to 6 so that when you roll the two dice the sum shows each whole number from 1 to 12 with equal chance
+    
+    \item
+    If you take a Rubik's cube and repeatedly apply any sequence of moves to it. Will the cube eventually return to it's initial condition
+    
+    \item
+    You are at a ice cream purchasing facility. You get round to picking the size of ice cream and realise that you don't know the possible options. There are four sizes and you are presented each of sizes once, one after another in a random order, the catch - as there always is with ice cream - is that you have to pick the ice cream when it is presented to you and you are unaware of the remaining options. What strategy maximises the chances that you get the biggest ice cream?
+
+	% Seesaw problem
+	\item
+    You are on a island with twelve gnomes. Eleven of these gnomes weigh the same amount and one of them has a different weight, you do not know if this gnome weighs more or less than the others. In order to determine the odd one out, you can use a set of large gnome weighing scales. The catch, is that the scales can only be used 3 times. What strategy can you use so as to always determain the odd one out?
+
+    Now there are 14 gnomes to chose from and you have a collection of 10 gnome teddy bears weighing the normal amount. What strategy can be used that will always determine the odd one out?
+    
+    % Gilad's pill problem
+    \item
+    There are 10 bottles of 2000 pills. Paracetamol pills weigh 1000mg each. The bottles are unlabelled.
+    i) A mysterious individual then replaces one of the bottles with a bottle of Ibrupofen with 2000 pills that weigh 1010mg each. You have an electronic scale and you may place one weighing boat once on the scale containing any number of pills. Find a strategy to identify which bottle contains the Ibrupofen. 
+    ii) The mysterious individual replaces any number of bottles with Ibrupofen bottles. Find a strategy to identify all the bottles containing the Ibrupofen
+    
+	\item
+	Show that a real number has a repeating decimal expansion if and only if that number is rational
+	
+	\item
+	The equilateral triangleABChas sides of integer lengthN.  Thetriangle is completely divided (by drawing lines parallel to the sides ofthe triangle) into equilateral triangular cells of side length 1.A continuous route is chosen, starting inside the cell with vertexAand always crossing from one cell to another through an edge sharedby the two cells. No cell is visited more than once. Find, with proof,the greatest number of cells which can be visited.
+
+	\item
+	Evaluate
+	\begin{enumerate}
+	    \item 
+    	$\int_{0}^{\frac{\pi}{2}} \frac{\sin^3{x}}{2 + \sin(x)} dx$
+
+        \item
+    	$\int{\frac{1}{(x^2+1)^{2}}}dx$
+    	
+    	\item
+    	$\int{\frac{1}{x^{4}+1}}dx$
+    	
+    	\item
+    	$\int{\frac{1+x^{5}}{(x^{2}+1)^{3}}}dx$
+	\end{enumerate}
+
+	\item
+	Find the general solution for the system of diffrential equations.
+	$\frac{dy}{dt} = -2(y-z)$ and $\frac{dz}{dt} = -\frac{dy}{dt} - 3z$
+	
+	\item
+	A function $f(x)$ is defined as follows. $f''(x) = -f(x)$, $f(0) = 0$ and $f'(0) = 1$. Prove that:
+	\begin{enumerate}
+	    \item $f(x + a) = f(x)f'(a) + f'(x)f(a)$
+	    \item $(f(x))^2 + (f'(x))^2 = 1$
+	    \item $\exists x$ $f(x+a) = f'(x)$
+	\end{enumerate}
+	You may use without proof that fact that any linear second order differential equation with initial conditions has a unique solution
+	
+	\item
+	Find all integers coprime to every element of the sequence $2^{n} + 3^{n} + 6^{n}-1$
+	
+	\item
+	A social network has 2019 users, some pairs of whom are friends. Whenever user A
+    is friends with user B, user B is also friends with user A. Events of the following kind may happen
+    repeatedly, one at a time:
+    Three users A, B, and C such that A is friends with both B and C, but B and C are
+    not friends, change their friendship statuses such that B and C are now friends, but A is
+    no longer friends with B, and no longer friends with C. All other friendship statuses are
+    unchanged.
+    Initially, 1010 users have 1009 friends each, and 1009 users have 1010 friends each. Prove that there
+    exists a sequence of such events after which each user is friends with at most one other user.
+    
+    \item
+    NOT INCLUDEDS
+    If you break a stick at two random points, what is the probability that the remaining parts can be used to form a triangle?
+    
+	LetGbe a convex quadrilateral. Show that there is a pointXin theplane ofGwith the property that every straight line throughXdividesGinto two regions of equal area if and only ifGis a parallelogram.
+	
+\end{enumerate}
 
 \end{document}
